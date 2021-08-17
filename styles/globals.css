@@ -14,3 +14,97 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.wrapper {
+  position: relative;
+  height: 100vh;
+}
+
+.container {
+  padding: 20px 40px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+main {
+  margin-top: 60px;
+  text-align: center;
+}
+
+input {
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 15px 20px;
+  border: none;
+  color: white;
+  background-color: #6246ea;
+  border-radius: 5px;
+}
+
+.para2 {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.para1 {
+  width: 50%;
+  margin: 20px auto;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+.dateContainer {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.react-datepicker__input-container input {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* SURFACE DUO */
+@media only screen and (max-width: 540px) {
+  .wrapper {
+    height: 100%;
+  }
+
+  footer {
+    position: relative;
+    padding: 1px;
+  }
+
+  .para2 {
+    width: 100%;
+  }
+
+  .para1 {
+    width: 100%;
+  }
+
+  .container {
+    padding: 10px 20px;
+  }
+}
