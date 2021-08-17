@@ -23,7 +23,7 @@ function ticket() {
             src={logo}
             alt="Picture of the author"
             width={50}
-            height={50}
+            height={10}
           />
           <h3>ticket120</h3>
         </nav>
