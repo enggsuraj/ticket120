@@ -65,7 +65,10 @@ function ticket() {
         </Head>
         <nav>
           <Image src={logo} alt="ticket120 logo" width={50} height={10} />
-          <h3>ticket120</h3>
+          <div className="logo-box">
+            <h3>ticket120</h3>
+            <img className="flag" src="./india.png" alt="" />
+          </div>
         </nav>
         <main>
           <h1>🚆 IRCTC TRAIN TICKET ADVANCED BOOKING DATE CALCULATOR</h1>
