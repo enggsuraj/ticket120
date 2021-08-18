@@ -15,9 +15,9 @@ a {
   box-sizing: border-box;
 }
 
-.wrapper {
+html {
   position: relative;
-  height: 100vh;
+  min-height: 100%;
 }
 
 .container {
@@ -87,15 +87,6 @@ footer {
 
 /* SURFACE DUO */
 @media only screen and (max-width: 540px) {
-  .wrapper {
-    height: 100%;
-  }
-
-  footer {
-    position: relative;
-    padding: 1px;
-  }
-
   .para2 {
     width: 100%;
   }
@@ -106,5 +97,9 @@ footer {
 
   .container {
     padding: 10px 20px;
+  }
+
+  body {
+    font-size: 12px;
   }
 }
