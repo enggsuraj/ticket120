@@ -40,7 +40,6 @@ function ticket() {
             property="og:image"
             content="https://ticket120.toolcarton.com/banner.png"
           />
-
           <meta property="twitter:card" content="summary_large_image" />
           <meta
             property="twitter:url"
@@ -58,10 +57,12 @@ function ticket() {
             property="twitter:image"
             content="https://ticket120.toolcarton.com/banner.png"
           />
-
           <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
           <link rel="canonical" href="https://ticket120.toolcarton.com/" />
-          <meta name="google-site-verification" content="" />
+          <meta
+            name="google-site-verification"
+            content="R66HnaQdQ-YIUjFUo-TcNq00hO28vxWoY_8sUoI4hks"
+          />{" "}
         </Head>
         <nav>
           <Image src={logo} alt="ticket120 logo" width={50} height={10} />
