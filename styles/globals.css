@@ -61,6 +61,12 @@ button {
   margin: 20px auto;
 }
 
+.para2 span {
+  background-color: yellow;
+  padding: 2px;
+  font-weight: bolder;
+}
+
 .para1 {
   width: 50%;
   margin: 20px auto;
@@ -88,6 +94,10 @@ footer {
 .logo-box {
   display: flex;
   align-items: center;
+}
+
+.logo-box h3 {
+  margin-left: 10px;
 }
 
 .flag {
